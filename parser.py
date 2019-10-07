@@ -18,6 +18,7 @@ urllib3.disable_warnings()
 # Set interval between requests to site
 request_interval = 3
 
+
 # Check existence of page with game
 def is_exist(url):
     request = http.request('GET', url)
